@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="./style.css">
+ <!-- firebase links cdn -->
+
+ <script>"https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js"</script>
+ 
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+</head>
+<body>
+
+    <div class="form">
+        <h2 id="H1">SIGN IN HERE ! 👻</h2>
+        <div class="emial">
+            <label for="emial">Email</label>
+            <input type="email" name="email"  id="email" placeholder=" your Email">
+        </div>
+             <!-- pssword-->
+
+             <div class="pass">
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" placeholder="your password">
+             </div>
+
+             <!-- signup button -->
+             <button id="submit_btn" onclick="signIn()">sign In</button>
+             <p>Already have an account ?</p>
+             <span><a href="./index.html">Sign Up</a></span>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./main.js/app.js"></script>
+    <script src="./main.js/config.js"></script>
+</body>
+</html>
